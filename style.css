@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    background-color: #333;
+}
+
+.name{
+    padding: 10px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navbar{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+.bar-content{
+    float: left;
+}
+
+.bar-content ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bar-content li{
+    display: inline-block;
+    margin-right: 50px;
+    padding: 25px;
+    font-size: 30px;
+    font-family: 'Agency FB';
+    text-decoration: bold;
+    position: relative;
+}
+
+.bar-content ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.bar-content a:hover{
+    color: #77b63b;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.bar-content a.active{
+    color: #739157;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+.bar-content a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+    position: absolute;
+    width: 0%;
+}
+
+.welcome{
+    text-align: center;
+    font-size: 50px;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.footer{
+    background-color: #333;
+    height: auto;
+    position: sticky;
+    top: 100%;
+}
+
+.copyright{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
